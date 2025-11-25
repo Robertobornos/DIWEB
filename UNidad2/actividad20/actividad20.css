@@ -1,0 +1,7 @@
+ol.tarea {
+    list-style-type: decimal-leading-zero;
+    font-size: 18px;
+    list-style-position: inside;
+    color: #003660;
+
+}

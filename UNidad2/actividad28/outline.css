@@ -1,0 +1,15 @@
+.Primera_Seccion {
+   
+    outline-style: dashed;
+    outline-color: red;
+}
+
+.Segunda_Seccion {
+    outline: 5px solid blue;    
+   
+}
+
+.Tercera_Seccion {
+    outline: 3px solid green;
+    outline-offset: 10px;
+}
