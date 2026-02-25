@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+
+        header {
+            background-image: url('russia.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+
+        .galeria {
+            /*Alineamos con flex horizontalmente */
+            display: flex;  
+            gap: 20px;
+            padding: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+
+        /* Bordes redondos con sombra */
+        .galeria img {
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.4s ease, filter 0.4s ease;
+        }
+
+
+        /*escalamos y cuando pasamos el raton se pone mas brillante */
+        .galeria img:hover {
+            transform: scale(1.08);
+            filter: brightness(1.2);
+        }
+
+
+        .contenido {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: white;
+        }
+
+        .contenido h2 {
+            margin-bottom: 30px;
+        }
+
+        .contenido img {
+            width: 60%;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer a {
+            display: inline-block;
+            background-color: #444;
+            background-size: 20px;
+            background-position: 15px center;
+            padding: 12px 25px 12px 45px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            background-image: url('balon.png');
+            background-repeat: no-repeat;
+            background-position: 15px center;
+
+        }
+
+        footer a:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Mundial 2018 - JUGADORES</h1>
+    </header>
+
+
+    <section class="galeria">
+        <img src="Griezmann.jpg" alt="Antoine Griezmann - Francia">
+        <img src="Modric.jpg" alt="Luka Modric - Croacia">
+        <img src="Mbappe.jpg" alt="Kylian Mbappé - Francia">
+    </section>
+
+    <section class="contenido">
+        <h2>Mencion Honorifica</h2>
+
+
+        <img src="Kane.jpg" srcset="
+            Kane100.jpg 1200w,
+            Kane-medium.jpg 768w,
+            Kane-small.jpg 480w" sizes="(max-width: 768px) 100vw, 50vw" alt="Harry Kane - Inglaterra">
+
+        <p>
+            El Mundial de Rusia 2018 nos dejó actuaciones inolvidables.
+            Antoine Griezmann fue clave en la victoria de Francia,
+            Luka Modric brilló con Croacia llevándola a la final
+            y Kylian Mbappé sorprendió al mundo con su velocidad y talento.
+            Como mención honorífica, Harry Kane fue el máximo goleador del torneo.
+        </p>
+    </section>
+
+
+    <footer>
+        <a href="#">Más Información</a>
+    </footer>
+
+</body>
+
+</html>
