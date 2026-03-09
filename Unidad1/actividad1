@@ -1,1 +1,54 @@
-<a href="archivo.pdf" target="_blank">LineaTiempo.pdf</a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 1 – Unidad 1</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #1e88e5;
+    }
+
+    a {
+      color: #1e88e5;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Actividad 1 – Unidad 1</h1>
+  <p>Aquí puedes descargar o visualizar el PDF de la actividad.</p>
+
+  <p>
+    👉 <a href="archivo.pdf" target="_blank">Abrir PDF de la actividad</a>
+  </p>
+
+  <p>
+    <a href="../index.html">← Volver al inicio</a>
+  </p>
+</div>
+
+</body>
+</html>
