@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 4</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body { font-family: Arial; max-width: 900px; margin: 40px auto; padding: 20px; background: #f4f4f4; }
+    h1, h2, h3 { color: #1e88e5; }
+  </style>
+</head>
+<body>
+
+<h1>Actividad 4</h1>
+<div id="contenido"></div>
+
+<script>
+  fetch("actividad4.md")
+    .then(r => r.text())
+    .then(t => document.getElementById("contenido").innerHTML = marked.parse(t));
+</script>
+
+</body>
+</html>
