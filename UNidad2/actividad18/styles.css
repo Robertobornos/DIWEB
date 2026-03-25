@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Título */
+.titulo {
+    font-family: serif;     /* fuente estándar */
+    font-size: 24px;        /* tamaño grande */
+    font-weight: bold;      /* negrita */
+    text-transform: uppercase;
+}
+
+/* Primer párrafo */
+.p1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+/* Segundo párrafo */
+.p2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;    /* espaciado entre letras */
+    text-transform: lowercase;
+}
+
+/* Último párrafo */
+.p3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;       /* interlineado amplio */
+    font-weight: 300;
+}

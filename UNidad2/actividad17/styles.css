@@ -1,0 +1,33 @@
+/* Título principal */
+.titulo {
+    color: #007acc;        /* azul profesional */
+    font-size: 32px;       /* tamaño grande */
+    text-align: center;    /* centrado */
+    text-transform: uppercase; /* todo en mayúsculas */
+}
+
+/* Subtítulo */
+.subtitulo {
+    color: #333333;        /* gris oscuro */
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2px;   /* separación entre letras */
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/* Párrafo */
+.parrafo {
+    color: #333333;
+    text-align: justify;
+    text-indent: 30px;     /* sangría en la primera línea */
+}
+
+/* Bloque de cita */
+.cita {
+    font-style: italic;
+    background-color: #f0f8ff; /* azul muy suave */
+    padding: 10px;
+    border-left: 3px solid #007acc;
+    margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+.caja1 {
+    box-sizing: content-box;
+    width: 140px;
+    padding: 20px;
+    border: 10px solid red;
+    background-color: #ffb3b3;
+}
+
+.caja2 {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid green;
+    background-color: #b3ffb3;
+}

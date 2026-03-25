@@ -1,0 +1,23 @@
+/* Caja que usa viewport */
+.vh-box {
+    width: 50vw;   /* 50% del ancho de la ventana */
+    height: 30vh;  /* 30% del alto de la ventana */
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+/* Caja que usa % y px */
+.vw-box {
+    width: 80%;     /* 80% del ancho del contenedor */
+    height: 200px;  /* altura fija */
+    background-color: lightgreen;
+    margin-bottom: 20px;
+}
+
+/* Caja con % y límites */
+.percent-box {
+    width: 60%;       /* ocupa el 60% del contenedor */
+    min-width: 200px; /* no puede ser más pequeña que 200px */
+    max-width: 500px; /* no puede superar 500px */
+    background-color: lightcoral;
+}

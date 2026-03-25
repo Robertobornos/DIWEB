@@ -1,0 +1,31 @@
+/* 1. Color general heredado por todo el documento */
+body {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Párrafos dentro de la sección con fuente distinta */
+section p {
+    font-family: "Courier New", monospace;
+}
+
+/* 3. Clase highlight: fondo amarillo + negrita */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* 4. El párrafo con id override sobrescribe el color general */
+#override {
+    color: crimson;
+}
+
+/* 5. El h1 hereda el color general pero tiene tamaño propio */
+h1 {
+    font-size: 32px;
+}
+
+/* 6. Regla con !important para ganar prioridad */
+section p {
+    line-height: 1.6 !important;
+}

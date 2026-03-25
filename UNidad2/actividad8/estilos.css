@@ -1,0 +1,13 @@
+
+h1:nth-of-type(odd) {
+    color: green;
+}
+
+h1:nth-of-type(even) {
+    color: red;
+}
+
+
+h1:first-of-type {
+    color: blue;
+}

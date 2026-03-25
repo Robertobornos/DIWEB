@@ -1,0 +1,23 @@
+/* Primera sección: margen uniforme */
+.seccion1 {
+    margin: 20px;                 /* margen igual en los 4 lados */
+    background-color: #cce5ff;    /* color para ver la separación */
+    padding: 10px;
+}
+
+/* Segunda sección: márgenes asimétricos */
+.seccion2 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    background-color: #ffd6cc;    /* color para diferenciar */
+    padding: 10px;
+}
+
+/* Tercera sección: botón centrado con margin auto */
+.seccion3 button {
+    display: block;       /* necesario para que margin:auto funcione */
+    margin: 50px auto 0;  /* 50px arriba, auto a los lados */
+    padding: 10px 20px;
+}

@@ -1,0 +1,26 @@
+/* Subtítulo en morado */
+h2 {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Párrafo destacado con fondo gris */
+p.destacado {
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+/* Elementos de lista en rojo */
+ul li {
+    color: red;
+}
+
+/* Campo de usuario con borde azul */
+#usuario {
+    border: 2px solid blue;
+}
+
+/* Campo de contraseña con borde verde */
+#password {
+    border: 2px solid green;
+}

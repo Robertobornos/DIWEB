@@ -1,0 +1,27 @@
+/* Primera sección: relleno uniforme */
+.seccion1 {
+    padding: 20px;                 /* igual en los 4 lados */
+    background-color: #cce5ff;     /* color para ver el relleno */
+    margin-bottom: 20px;
+}
+
+/* Segunda sección: relleno asimétrico */
+.seccion2 {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    background-color: #ffd6cc;     /* color para resaltar el espacio interno */
+    margin-bottom: 20px;
+}
+
+/* Tercera sección: botón con relleno grande */
+.seccion3 button {
+    padding: 30px 50px;            /* 30px arriba/abajo, 50px lados */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

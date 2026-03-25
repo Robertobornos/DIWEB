@@ -1,0 +1,25 @@
+/* Estilo del contenedor */
+.contenedor {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Párrafo con inherit */
+.inherit {
+    color: inherit;
+}
+
+/* Párrafo con initial */
+.initial {
+    color: initial;
+}
+
+/* Párrafo con unset */
+.unset {
+    color: unset;
+}
+
+/* Párrafo con revert */
+.revert {
+    color: revert;
+}
