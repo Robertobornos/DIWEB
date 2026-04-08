@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.cuadro {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rojo {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.azul {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.verde {
+    background-color: green;
+    top: 150px;
+    left: 150px;
+    z-index: 3;
+}

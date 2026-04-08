@@ -1,0 +1,14 @@
+.content {
+  font-family: $fuente-base;
+  padding: $padding-base;
+
+  h2 {
+    margin-bottom: 10px;
+    color: $color-principal;
+  }
+
+  p {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+}

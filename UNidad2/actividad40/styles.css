@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #ff7b00;
+    font-size: 36px;
+}
+
+h2 {
+    color: #0066cc;
+    font-size: 28px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #333;
+}
+
+.texto-destacado {
+    font-size: 20px;
+    color: #00994d;
+}
+
+.final {
+    font-size: 22px;
+    color: #cc0000;
+    font-weight: bold;
+}

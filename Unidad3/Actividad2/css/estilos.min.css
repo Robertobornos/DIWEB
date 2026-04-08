@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.menu {
+    background: #333;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background: #444;
+}
+
+.content {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.content h2 {
+    color: #007bff;
+    margin-top: 0;
+}
