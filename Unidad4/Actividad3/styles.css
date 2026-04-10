@@ -1,0 +1,12 @@
+.cards {
+    display: flex;                
+    justify-content: space-between; 
+    width: 100%;                    
+}
+
+.card {
+    width: 30%;                    
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}

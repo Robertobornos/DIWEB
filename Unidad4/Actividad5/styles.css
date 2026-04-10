@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    gap: 20px;                      
+}
+.main {
+    display: flex;                  
+}
+.sidebar {
+    width: 200px;                  
+}
+.contenido {
+    flex-grow: 1;                
+}
+
+.cards {
+    display: flex;                 
+    gap: 20px;                     
+}
+.card {
+    flex: 1;                       
+}
+
+.footer {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+}

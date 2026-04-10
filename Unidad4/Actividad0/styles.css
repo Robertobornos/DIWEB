@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.caja {
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.especial {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+}
+
+
+
+
+nav a:hover {
+    color: blue;
+}
+
+
+.caja {
+    text-align: center;
+    line-height: 100px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+nav a {
+    color: green;
+}

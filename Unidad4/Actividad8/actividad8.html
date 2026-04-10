@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard con CSS Grid</title>
+    <style>
+        .dashboard {
+            display: grid;
+            grid-template-columns: 200px 1fr 200px;
+            grid-template-rows: 80px 1fr 60px;
+            height: 100vh;
+            gap: 10px;
+        }
+
+        .header {
+            grid-column: 1 / 4;
+            background: #ccc;
+        }
+
+        .menu {
+            grid-row: 2 / 3;
+            background: #ddd;
+        }
+
+        .contenido {
+            background: #eee;
+        }
+
+        .extra {
+            background: #ddd;
+        }
+
+        .footer {
+            grid-column: 1 / 4;
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <header class="header">Header</header>
+        <nav class="menu">Menu</nav>
+        <section class="contenido">Contenido</section>
+        <aside class="extra">Extra</aside>
+        <footer class="footer">Footer</footer>
+    </div>
+
+</body>
+</html>
