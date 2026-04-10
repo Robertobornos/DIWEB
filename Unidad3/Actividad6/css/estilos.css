@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.titulo {
+  content: to-uppercase(Mi titulo);
+}
+
+.caja {
+  width: 40%;
+}
+
+.fuentes {
+  font-family: "Verdana";
+}
+
+.boton-primario {
+  background-color: #3498db;
+}
+
+.boton1 {
+  background-color: midnightblue;
+  color: white;
+}
+
+.boton2 {
+  background-color: purple;
+  color: white;
+}
+
+.alerta {
+  background-color: white;
+  opacity: 0.6;
+}
