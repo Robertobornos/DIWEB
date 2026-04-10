@@ -61,14 +61,16 @@
 
 <div class="container">
 
-  <!-- ACTIVIDADES -->
-  <!-- Puedes copiar/pegar este bloque para nuevas actividades -->
-
-  <!-- Generadas automáticamente -->
   <script>
     const container = document.currentScript.parentElement;
 
-    for (let i = 1; i <= 29; i++) {
+    // Actividades que NO quieres mostrar
+    const ocultar = [1, 2, 3, 4, 6, 21];
+
+    for (let i = 1; i <= 40; i++) {
+
+      if (ocultar.includes(i)) continue;
+
       const card = document.createElement("div");
       card.className = "card";
 
@@ -84,7 +86,6 @@
     }
   </script>
 
-  <!-- ARCHIVO XML -->
   <div class="card">
     <h2>Archivo lpl.xml</h2>
     <p>Descargar archivo lpl.xml.</p>
